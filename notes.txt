@@ -1,0 +1,12 @@
+1. Add parameter to book class so it recognizes if a book is taken &&&&&&&&&&& DONE
+
+2. Keep count of how many books each users have taken out
+	a) book taken out&&&&&&&&&&&&
+	b) book taken in&&&&&&&&&&
+3. Let users take out books&&&&&&&
+4. Let users return books&&&&&&&&&&&&&
+5. make sure the user is selected when they login&&&&&&&&&
+- make sure there is a record of what books the user has taken out&&&&&&&&&&
+6. understand copy constructors
+8. For some reason if a user is created and then a book is returned or taken out. The enitire users list is reappended to the orginial
+- reason is because the new user along with every existing user is pushed back into user list again because of readuser function&&&&&&&&&&&&&&&&&&&ISUE RESOLVED

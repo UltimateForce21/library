@@ -21,14 +21,29 @@
     <ClCompile Include="Book.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Users.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="book.h">
+    <ClInclude Include="Book.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Users.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="bookLibrary.txt">
+    <Text Include="ascii.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="users.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="notes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="newascii.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

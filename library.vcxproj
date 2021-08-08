@@ -141,12 +141,17 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Book.cpp" />
+    <ClCompile Include="Users.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="book.h" />
+    <ClInclude Include="Book.h" />
+    <ClInclude Include="Users.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="bookLibrary.txt" />
+    <Text Include="ascii.txt" />
+    <Text Include="newascii.txt" />
+    <Text Include="notes.txt" />
+    <Text Include="users.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
