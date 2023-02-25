@@ -442,7 +442,7 @@ int main() {
         cout << "4- Enter a new book" << endl;
         cout << "5- Create a new user" << endl;
         cout << "6- Take-out/Put-back a book" << endl;
-        cout << "0- Exist Program" << endl;
+        cout << "0- Exit Program" << endl;
         cin >> choice;
 
         if (choice == 1) {
